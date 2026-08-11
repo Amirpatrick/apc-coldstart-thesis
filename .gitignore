@@ -1,0 +1,17 @@
+# Never commit data or caches
+*.parquet
+*.npz
+*.tar
+*.npy
+cache/
+logs/
+data/
+
+# Reports ARE committed (they are the evidence trail) except large stray files
+reports/**/*.pkl
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
